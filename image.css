@@ -1,0 +1,100 @@
+/* 基本スタイリング */
+
+/* 全体のスタイル */
+body {
+    /* フォント設定 */
+    font-family: 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif;
+    /* 背景色 */
+    background-color: #f4f4f4;
+    /* 余白 */
+    margin: 0;
+    padding: 20px;
+    /* テキストの色 */
+    color: #333;
+}
+
+/* コンテナ */
+.container {
+    /* 最大幅 */
+    max-width: 800px;
+    /* 中央揃え */
+    margin: auto;
+    /* 背景色 */
+    background: #fff;
+    /* 余白 */
+    padding: 20px;
+    /* 角丸 */
+    border-radius: 8px;
+    /* 影 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ヘッダー */
+.header {
+    /* 中央揃え */
+    text-align: center;
+    /* 下の余白 */
+    margin-bottom: 20px;
+}
+
+/* アップロードエリア */
+.upload-area {
+    /* 中央揃え */
+    text-align: center;
+    /* 下の余白 */
+    margin-bottom: 20px;
+}
+
+/* プレビューエリア */
+.preview-area {
+    /* 中央揃え */
+    text-align: center;
+    /* 下の余白 */
+    margin-bottom: 20px;
+}
+
+/* 情報エリア */
+.info-area {
+    /* 背景色 */
+    background-color: #e9ecef;
+    /* 余白 */
+    padding: 15px;
+    /* 角丸 */
+    border-radius: 8px;
+    /* 下の余白 */
+    margin-bottom: 20px;
+}
+
+/* ダウンロードボタン */
+.download-btn {
+    /* インラインブロック */
+    display: inline-block;
+    /* 余白 */
+    padding: 10px 20px;
+    /* 背景色 */
+    background-color: #007bff;
+    /* テキストの色 */
+    color: white;
+    /* 枠線なし */
+    border: none;
+    /* 角丸 */
+    border-radius: 5px;
+    /* カーソル */
+    cursor: pointer;
+    /* テキスト装飾なし */
+    text-decoration: none;
+}
+
+/* ダウンロードボタンホバー時 */
+.download-btn:hover {
+    /* ホバー時の背景色 */
+    background-color: #0056b3;
+}
+
+/* 画像 */
+img {
+    /* 最大幅100% */
+    max-width: 100%;
+    /* 高さ自動調整 */
+    height: auto;
+}
